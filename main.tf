@@ -42,6 +42,6 @@ module "OpenVpn" {
     env_prefix_name              = "dev"
     region                       = "eu-west-1"
     keypair_arn                  = module.OpenVpnkeypair.keypair_arn
-    keypair_name                 = module.OpenVpnkeypair.keypair.name
+    key_name                 = module.OpenVpnkeypair.keypair.name
 
 }
